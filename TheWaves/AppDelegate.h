@@ -10,6 +10,8 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+//在这里添加window解决黑屏问题
+@property (strong, nonatomic) UIWindow * window;
 
 @end
 
