@@ -16,6 +16,7 @@
 		741AFE60233DF75700F3AD23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741AFE5F233DF75700F3AD23 /* main.m */; };
 		741AFE6A233DF75700F3AD23 /* TheWavesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741AFE69233DF75700F3AD23 /* TheWavesTests.m */; };
 		741AFE75233DF75700F3AD23 /* TheWavesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741AFE74233DF75700F3AD23 /* TheWavesUITests.m */; };
+		747D102323409D8200CC429A /* ZAWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 747D102223409D8200CC429A /* ZAWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		741AFE70233DF75700F3AD23 /* TheWavesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheWavesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		741AFE74233DF75700F3AD23 /* TheWavesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheWavesUITests.m; sourceTree = "<group>"; };
 		741AFE76233DF75700F3AD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747D102123409D8200CC429A /* ZAWaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAWaveView.h; sourceTree = "<group>"; };
+		747D102223409D8200CC429A /* ZAWaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		741AFE4C233DF75600F3AD23 /* TheWaves */ = {
 			isa = PBXGroup;
 			children = (
+				747D102023409D4A00CC429A /* ZAWaveView */,
 				741AFE4D233DF75600F3AD23 /* AppDelegate.h */,
 				741AFE4E233DF75600F3AD23 /* AppDelegate.m */,
 				741AFE50233DF75700F3AD23 /* SceneDelegate.h */,
@@ -135,6 +139,15 @@
 				741AFE76233DF75700F3AD23 /* Info.plist */,
 			);
 			path = TheWavesUITests;
+			sourceTree = "<group>";
+		};
+		747D102023409D4A00CC429A /* ZAWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				747D102123409D8200CC429A /* ZAWaveView.h */,
+				747D102223409D8200CC429A /* ZAWaveView.m */,
+			);
+			path = ZAWaveView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +282,7 @@
 			files = (
 				741AFE55233DF75700F3AD23 /* ViewController.m in Sources */,
 				741AFE4F233DF75600F3AD23 /* AppDelegate.m in Sources */,
+				747D102323409D8200CC429A /* ZAWaveView.m in Sources */,
 				741AFE60233DF75700F3AD23 /* main.m in Sources */,
 				741AFE52233DF75700F3AD23 /* SceneDelegate.m in Sources */,
 			);
@@ -442,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22FA8WLF42;
 				INFOPLIST_FILE = TheWaves/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22FA8WLF42;
 				INFOPLIST_FILE = TheWaves/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
